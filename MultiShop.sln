@@ -7,12 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4C457E6A-A0A9-4904-8D1D-CF26482ACC32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Catalog", "Services\Catalog\MultiShop.Catalog\MultiShop.Catalog.csproj", "{404BD352-0905-4983-8312-51CC59300E38}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404BD352-0905-4983-8312-51CC59300E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404BD352-0905-4983-8312-51CC59300E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404BD352-0905-4983-8312-51CC59300E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404BD352-0905-4983-8312-51CC59300E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4C457E6A-A0A9-4904-8D1D-CF26482ACC32} = {41748DD7-E22C-48DE-9D3F-8CC63DCF7432}
+		{404BD352-0905-4983-8312-51CC59300E38} = {4C457E6A-A0A9-4904-8D1D-CF26482ACC32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43C2A892-73E7-408C-B97D-EB67D9EBE6F0}
